@@ -20,6 +20,7 @@ function RegistroForm() {
   };
 
   return (
+  <div className='fundo'>
     <div className="card-page"> 
       <NavBar /> 
       <div className="register-container">
@@ -71,6 +72,7 @@ function RegistroForm() {
           <img src="src/assets/register.jpg" alt="register" />
         </div>
       </div>
+    </div>
     </div>
   );
 }

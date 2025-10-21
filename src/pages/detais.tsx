@@ -30,6 +30,7 @@ const Detalhes = () => {
   }
 
   return (
+    <div className="fundo">
     <div className="detalhes-page">
       <NavBar />
 
@@ -45,7 +46,7 @@ const Detalhes = () => {
         </div>
       </div>
     </div>
-    
+    </div>
   );
 };
 

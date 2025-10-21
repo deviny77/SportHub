@@ -59,6 +59,7 @@ const DetalhesGerais = () => {
     filtro === "todos" ? Object.keys(escolasPorEsporte).map(Number) : [filtro];
 
   return (
+    <div className="fundo">
     <div className="detalhes-page">
       <NavBar /><br /><br />
 
@@ -101,6 +102,7 @@ const DetalhesGerais = () => {
           </div>
         ))}
       </div>
+    </div>
     </div>
   );
 };

@@ -1,4 +1,10 @@
 .fundo{
+  background-image: url(/src/assets/fundoSHub.png);
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+  background-size: auto;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -87,3 +93,4 @@
 .info-button:hover {
   background-color: #1d4ed8; /* blue-700 */
 }
+
